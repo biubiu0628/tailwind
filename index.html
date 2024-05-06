@@ -14,14 +14,16 @@
 
   <body class="font-inter">
     <header class="bg-[#f5f7fa] w-full flex justify-center">
-      <div class="max-w-[1440px] w-full grid grid-cols-3 p-10">
+      <div
+        class="max-w-[1440px] w-full flex justify-center items-center p-10 max-xl:p-0"
+      >
         <!-- Logo -->
-        <div class="flex gap-2">
+        <div class="flex gap-x-2">
           <img src="./images/Icon.svg" />
           <p class="font-bold text-3xl">Nexcent</p>
         </div>
         <!-- home -->
-        <div class="flex justify-center gap-x-2 font-semibold w-full">
+        <div class="flex justify-center gap-x-2 font-semibold text-lg w-full">
           <button
             class="text-black hover:bg-[#388e3b] hover:text-white rounded-md py-2 px-3"
           >
@@ -61,7 +63,7 @@
             Login
           </button>
           <button
-            class="bg-[#4caf4f] text-white rounded-md hover:bg-[#388e3b] px-5 py-2"
+            class="bg-[#4caf4f] text-white rounded-md hover:bg-[#388e3b] px-4 py-2"
           >
             Sign up
           </button>
@@ -74,7 +76,7 @@
         <div class="grid grid-cols-2 px-10 max-w-[1440px] w-full">
           <!-- lessons -->
           <div class="p-10 py-40">
-            <div class="font-semibold text-7xl gap-y-14">
+            <div class="font-semibold text-7xl gap-y-14 max-xl:text-5xl">
               <p class="text-[#4d4d4d]">Lessons and insights</p>
               <p class="text-[#4caf4f]">from 8 years</p>
             </div>
@@ -89,8 +91,12 @@
             </button>
           </div>
           <!-- img -->
-          <div class="p-40">
-            <img src="./images/Illustration.svg" alt="" />
+          <div class="p-40 max-xl:px-10">
+            <img
+              class="max-xl:w-full h-full"
+              src="./images/Illustration.svg"
+              alt=""
+            />
           </div>
         </div>
       </section>
@@ -120,8 +126,10 @@
               Who is Nexcent suitable for?
             </p>
           </div>
-          <!-- Member -->
-          <div class="grid grid-cols-3 gap-x-24 max-w-7xl mx-auto mt-10 mb-10">
+          <div
+            class="grid grid-cols-3 gap-x-24 max-w-7xl mx-auto mt-10 mb-10 max-xl:grid-cols-1 max-xl:justify-items-center max-xl:gap-y-4"
+          >
+            <!-- Member -->
             <div
               class="grid shadow text-center place-items-center max-w-[300px] p-8"
             >
@@ -158,9 +166,9 @@
           <!-- The unseen -->
           <div>
             <img />
-            <div class="grid grid-cols-[35%_65%] p-10 place-items-center">
+            <div class="grid xl:grid-cols-[35%_65%] p-10 place-items-center">
               <img src="./images/Frame.svg" />
-              <div class="px-16 pr-32">
+              <div class="xl:px-16 xl:pr-32">
                 <h1 class="text-left text-5xl font-semibold mb-3">
                   The unseen of spending three years at Pixelgrade
                 </h1>
@@ -184,7 +192,7 @@
       </section>
       <!-- trang3 -->
       <section class="bg-[#f5f7fa] w-full flex justify-center py-20">
-        <div class="grid grid-cols-2 max-w-[1440px] w-full">
+        <div class="grid xl:grid-cols-2 max-w-[1440px] w-full">
           <div class="pl-12 gap-x-16">
             <div class="font-semibold text-5xl">
               <p class="text-[#4d4d4d]">Helping a local</p>
@@ -194,7 +202,9 @@
               We reached here with our hard work and dedication
             </p>
           </div>
-          <div class="grid grid-cols-2 grid-rows-2 gap-y-8 gap-x-24">
+          <div
+            class="grid grid-cols-2 grid-rows-2 gap-y-8 gap-x-24 max-xl:pl-12 max-xl:mt-4"
+          >
             <div class="flex gap-4">
               <img src="./images/icon1.svg" />
               <div>
@@ -229,11 +239,11 @@
       <!-- trang4 -->
       <section class="w-full flex justify-center py-[100px]">
         <div
-          class="grid grid-cols-[40%_60%] place-items-center w-full max-w-[1440px]"
+          class="grid xl:grid-cols-[40%_60%] place-items-center w-full max-w-[1440px]"
         >
           <div><img src="./images/pana.svg" /></div>
-          <div>
-            <h1 class="text-left text-5xl font-semibold mb-3">
+          <div class="max-xl:px-16">
+            <h1 class="text-left text-5xl font-semibold mb-3 max-xl:mt-4">
               How to design your site footer like we did
             </h1>
             <p class="text-left text-xl font-light text-[#717171] my-8 mr-24">
@@ -257,7 +267,9 @@
       </section>
       <!-- trang5 -->
       <section class="bg-[#f5f7fa] w-full flex justify-center py-10">
-        <div class="grid grid-cols-[35%_65%] w-full max-w-[1440px]">
+        <div
+          class="grid xl:grid-cols-[35%_65%] w-full max-w-[1440px] max-xl:place-items-center max-xl:p-12"
+        >
           <img src="./images/image.png" />
           <div>
             <p class="text-[#717171]">
@@ -277,7 +289,7 @@
             <p class="text-[#89939e] mb-6">
               British Dragon Boat Racing Association
             </p>
-            <div class="flex gap-16 items-center">
+            <div class="grid grid-cols-7 gap-16 items-center max-xl:gap-8">
               <img src="./images/Logo.svg" />
               <img src="./images/Logo2.svg" />
               <img src="./images/Logo3.svg" />
@@ -297,18 +309,22 @@
           <h1 class="text-center text-5xl font-semibold my-5">
             Caring is the new marketing
           </h1>
-          <div class="text-center text-xl font-light text-[#717171] px-60 mb-4">
+          <div
+            class="text-center text-xl font-light text-[#717171] px-60 mb-4 max-xl:px-0"
+          >
             The Nexcent blog is the best place to read about the latest
             membership insights, trends and more. See who's joining the
             community, read about how our community are increasing their
             membership income and lot's more.​
           </div>
-          <div class="grid grid-cols-3 place-items-center">
+          <div class="grid grid-cols-3 place-items-center max-xl:gap-x-2">
             <img src="./images/image1.png" />
             <img src="./images/image2.png" />
             <img src="./images/image3.png" />
           </div>
-          <div class="grid grid-cols-3 place-items-center mt-[-5rem]">
+          <div
+            class="grid grid-cols-3 place-items-center xl:mt-[-5rem] max-xl:gap-x-2"
+          >
             <div
               class="font-semibold shadow-md text-center max-w-[317px] bg-[#f5f7fa] rounded-md p-4"
             >
@@ -316,7 +332,7 @@
                 Creating Streamlined Safeguarding Processes with OneRen
               </p>
               <div class="flex justify-center">
-                <p class="text-[#4caf4f]">Readmore</p>
+                <p class="text-[#4caf4f] mr-1">Readmore</p>
                 <img src="./images/Right.svg" alt="" />
               </div>
             </div>
@@ -328,7 +344,7 @@
                 manage them?
               </p>
               <div class="flex justify-center">
-                <p class="text-[#4caf4f]">Readmore</p>
+                <p class="text-[#4caf4f] mr-1">Readmore</p>
                 <img src="./images/Right.svg" alt="" />
               </div>
             </div>
@@ -339,7 +355,7 @@
                 Revamping the Membership Model with Triathlon Australia
               </p>
               <div class="flex justify-center">
-                <p class="text-[#4caf4f]">Readmore</p>
+                <p class="text-[#4caf4f] mr-1">Readmore</p>
                 <img src="./images/Right.svg" alt="" />
               </div>
             </div>
@@ -367,7 +383,7 @@
           <div>
             <div class="flex gap-2 mb-4">
               <img src="./images/footer.svg" />
-              <p class="font-bold text-3xl text-white">Nexcent</p>
+              <p class="font-bold text-3xl text-white pb-2">Nexcent</p>
             </div>
             <p>Copyright © 2020 Nexcent ltd.</p>
             <p>All rights reserved</p>
@@ -396,18 +412,18 @@
           </div>
           <div>
             <h3 class="text-xl mb-4">Stay up to date</h3>
-            <div class="flex bg-[#515b60] rounded max-w-[270px]">
-              <label
-                for="in-email"
-                class="block text-sm font-medium rounded"
-              ></label>
-              <input
-                class="block bg-[#515b60] rounded p-3"
-                type="email"
-                id="in-email"
-                placeholder="Your email address"
-              />
-              <button class="block mx-1">
+            <div
+              class="grid grid-cols-[80%_20%] bg-[#515b60] rounded-md items-center"
+            >
+              <label for="in-email" class="text-sm font-medium">
+                <input
+                  class="bg-[#515b60] p-3 rounded-md w-full"
+                  type="email"
+                  id="in-email"
+                  placeholder="Your email address"
+                />
+              </label>
+              <button class="flex justify-center items-center">
                 <img src="./images/send.svg" alt="" />
               </button>
             </div>
